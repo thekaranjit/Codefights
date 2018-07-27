@@ -9,6 +9,11 @@ def commonCharacterCount(s1, s2):
             if i == j:
                 counter += 1
                 break
-    return counter
+    print (counter)
 
     
+
+s1 = "aabcc"
+s2 = "adcaa"
+
+commonCharacterCount(s1, s2)
